@@ -23,3 +23,10 @@ for i in range(len(str(inshallah))):
 if allah == "":
     allah = "ERROR"
 print(allah)
+
+                            # &   Made by Parattakorn Boonprakob :P   & #
+                        # !!! IF YOU USE THIS CODE, PLEASE CREDIT THE ORIGINAL !!! #
+                                    # ???   Thanks for reading =Δ=   ??? #
+
+                                            # ~ From the team, ~ #
+                                         #  ^「The Procasinators」^  #

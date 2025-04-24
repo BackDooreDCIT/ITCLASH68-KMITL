@@ -44,3 +44,10 @@ for a in range(1,nigga+1):
         for j in range(i,nigga+i):
             print("{:02d}".format(j), end=" ")
         print()
+
+                            # &   Made by Parattakorn Boonprakob :P   & #
+                        # !!! IF YOU USE THIS CODE, PLEASE CREDIT THE ORIGINAL !!! #
+                                    # ???   Thanks for reading =Δ=   ??? #
+
+                                            # ~ From the team, ~ #
+                                         #  ^「The Procasinators」^  #
