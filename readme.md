@@ -10,7 +10,7 @@ Each of these files/questions in this repository is made and solved by **Paratta
 
 There are **40 questions** in total, each questions are arranged by difficulty from 0 (Easy) - 5 (Hard) stars. *(Although some questions are harder than the given difficulty.)*
 
-Each file contains both the question (Written in Thai) and solution/answer, albeit may not be exactly the most efficient one.
+Each file contains both the question (Written in Thai) and solution/answer, *albeit may not be exactly the most efficient one.*
 
 # Contact:
 
