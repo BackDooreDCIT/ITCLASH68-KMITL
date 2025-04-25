@@ -1,6 +1,6 @@
 # What is this about?
 
-These are the Problem-Solving questions from the Preliminary Round of [**ITCLASH’68**](https://clash.it.kmitl.ac.th/) @KMITL. 
+These are the Problem-Solving questions from the Preliminary Round (Coding Track) of [**ITCLASH’68**](https://clash.it.kmitl.ac.th/) @KMITL, originating from the website used for the competition ([<g>learn](https://glearn.it.kmitl.ac.th/)). 
 
 Each of these files/questions in this repository is made and solved by **Parattakorn Boonprakob,** Member of the team ***「The Procasinators」***
 
@@ -8,7 +8,9 @@ Each of these files/questions in this repository is made and solved by **Paratta
 
 # Information:
 
-There are **40 questions** in total, each questions are arranged by difficulty from 0 (Easy) - 5 (Hard) stars. *(Although some questions are harder than the given difficulty.)*
+There are **40 questions** in total, each questions are arranged by difficulty from 0 (Easy) - 5 (Hard) stars. *(Although some questions are harder than the given difficulty.)* 
+
+They must be solved in the language; [**Python**](https://www.python.org/).
 
 Each file contains both the question (Written in Thai) and solution/answer, *albeit may not be exactly the most efficient one.*
 
