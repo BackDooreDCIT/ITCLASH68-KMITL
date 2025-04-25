@@ -1,6 +1,6 @@
 # What is this about?
 
-These are the Problem-Solving questions from the Preliminary Round (Coding Track) of [**ITCLASH’68**](https://clash.it.kmitl.ac.th/) @KMITL, originating from the website used for the competition ([<g>learn](https://glearn.it.kmitl.ac.th/)). 
+These are the Problem-Solving questions from the Preliminary Round (Coding Track) of [**ITCLASH’68**](https://clash.it.kmitl.ac.th/) @KMITL, originating from the website used for the competition ([glearn](https://glearn.it.kmitl.ac.th/)). 
 
 Each of these files/questions in this repository is made and solved by **Parattakorn Boonprakob,** Member of the team ***「The Procasinators」***
 
