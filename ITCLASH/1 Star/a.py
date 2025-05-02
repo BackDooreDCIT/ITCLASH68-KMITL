@@ -1,9 +1,10 @@
-i = 0
+# i = 0
 output = "LPH: "
-item = "Item " + str(i) + ": "
+
 # print(item)
 a = int(input())
 for i in range(a):
+    item = "Item " + str(i+1) + ": "
     itemname = input()
     output += str(item) + itemname
     if i == a-1:
@@ -11,3 +12,4 @@ for i in range(a):
     else:
         output += " -> "
 print(output)
+
