@@ -16,5 +16,4 @@ for i in range(len(seamap)): # checking if island exist
         findland += 1
         landcount = seamap[i].count("1")
 
-print(biggestislandsize)
-# 
+# print(biggestislandsize)
