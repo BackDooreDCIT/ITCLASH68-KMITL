@@ -1,10 +1,16 @@
+output = "LPH: "
+i = 0
 class bill:
-    def __init__(self, output, a, item, itemname, mylist):
-        self.output = output
-        self.a = a
+    def __init__(self, item):
         self.item = item
-        self.itemname = itemname
-        self.mylist = mylist
 
-    def myloop(self, )
-
+    def curitem(self):
+        output += "Item " + str(i) + ": "
+        output += self.item
+        output += " -> "
+loopamount = int(input())
+for i in range(loopamount):
+    myitem = input()
+    totaled = bill(myitem)
+    totaled.curitem
+print(output)
