@@ -37,7 +37,6 @@ for i in range(loopamount):
 print(output)
 
 
-
                             # &   Made by Parattakorn Boonprakob :P   & #
                         # !!! IF YOU USE THIS CODE, PLEASE CREDIT THE ORIGINAL !!! #
                                     # ???   Thanks for reading =Δ=   ??? #
