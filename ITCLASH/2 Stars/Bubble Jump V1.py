@@ -9,7 +9,7 @@ for i in range(len(obby)):
     curobject = obby[curpos]
     if curobject == " ":
         result = "IMPOSSIBLE"
-        deathpos = curpos
+        deathpos = curpos-1
         jumps = finishline - deathpos
         break
     elif curobject == "|":
