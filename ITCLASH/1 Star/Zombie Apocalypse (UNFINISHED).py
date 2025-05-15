@@ -21,27 +21,32 @@ for i in range(len(hp)):
     elif int(armor[i]) >= dmg:
         armorcount = (i+1)**2
         curdmgdealt = dmg
-    while int(hp[i]) > 0:
-        if armorcount > 0:
-            while armorcount > 0:
-                armorcount -= 1
+    if dmg == 0:
+        break
+    else:
+        while int(hp[i]) > 0:
+            if armorcount > 0:
+                while armorcount > 0:
+                    armorcount -= 1
+                    totalbulletcount += 1
+                    # print("count in",totalbulletcount)
+                    # print("death in",bulletdeath)
+                    if armorcount == 0:
+                        armor[i] = 0
+                        break
+            else:
+                hp[i] = int(hp[i])-curdmgdealt
                 totalbulletcount += 1
-                # print("count in",totalbulletcount)
-                # print("death in",bulletdeath)
-                if armorcount == 0:
-                    armor[i] = 0
-                    break
-        else:
-            hp[i] = int(hp[i])-curdmgdealt
-            totalbulletcount += 1
-            # print("count out",totalbulletcount)
-            # print("death out",bulletdeath)
-        if int(hp[i]) <= 0:
-            bulletdeath.append(totalbulletcount)
-            break
+                # print("count out",totalbulletcount)
+                # print("death out",bulletdeath)
+            if int(hp[i]) <= 0:
+                bulletdeath.append(totalbulletcount)
+                break
 print(totalbulletcount)
 if len(bulletdeath) == 1:
     print(bulletdeath[0])
+elif totalbulletcount == 0:
+    print(0)
 else:
     print(*bulletdeath, sep=' ')
 

@@ -22,24 +22,29 @@ for i in range(len(obby)):
         if curobject == "o":
             curpos += 1
             jumps += 1
-        elif curobject == "0":
+        elif curobject == "O":
             if finishline - curpos >= 3:
-                if (obby[curpos+1] == " " and obby[curpos+2] == " " and obby[curpos+3] == " ") or obby[curpos+3] == "|" or obby[curpos+3] == "o" or obby[curpos+3] == "0":
+                # THIS LINE
+                if obby[curpos+1] == "o" and obby[curpos+2] == " " and obby[curpos+3] == " " and (obby[curpos+4] == " " or obby[curpos+4] == "|"):
                     curpos += 3
-                    jumps += 3
-                elif obby[curpos+2] == "|" or obby[curpos+2] == "o" or obby[curpos+2] == "0":
+                    jumps += 1
+                # THIS LINE
+                elif (obby[curpos+1] == " " and obby[curpos+2] == " " and obby[curpos+3] == " ") or obby[curpos+3] == "|" or obby[curpos+3] == "o" or obby[curpos+3] == "O":
+                    curpos += 3
+                    jumps += 1
+                elif obby[curpos+2] == "|" or obby[curpos+2] == "o" or obby[curpos+2] == "O":
                     curpos += 2
-                    jumps += 2
-                elif obby[curpos+1] == "|" or obby[curpos+1] == "o" or obby[curpos+1] == "0":
+                    jumps += 1
+                elif obby[curpos+1] == "|" or obby[curpos+1] == "o" or obby[curpos+1] == "O":
                     curpos += 1
                     jumps += 1
             elif finishline - curpos < 3:
                 if finishline - curpos == 2:
-                    if obby[curpos+2] == "|" or obby[curpos+2] == "o" or obby[curpos+2] == "0":
+                    if obby[curpos+2] == "|" or obby[curpos+2] == "o" or obby[curpos+2] == "O":
                         curpos += 2
-                        jumps += 2
+                        jumps += 1
                 if finishline - curpos == 1:
-                    if obby[curpos+1] == "|" or obby[curpos+1] == "o" or obby[curpos+1] == "0":
+                    if obby[curpos+1] == "|" or obby[curpos+1] == "o" or obby[curpos+1] == "O":
                         curpos += 1
                         jumps += 1
 print(result)
