@@ -7,7 +7,8 @@ for i in array:
 boxsize = int(input())
 output = ""
 i = 0
-while True:
+
+for a in range(len(array2)):
     checkmedian = array2[0+i:boxsize+i]
     # print("before",checkmedian)
     checkmedian.sort()

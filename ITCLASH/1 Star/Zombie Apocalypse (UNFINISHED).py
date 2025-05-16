@@ -42,6 +42,8 @@ for i in range(len(hp)):
             if int(hp[i]) <= 0:
                 bulletdeath.append(totalbulletcount)
                 break
+if hp.count("0") == len(hp):
+    totalbulletcount = len(hp)
 print(totalbulletcount)
 if len(bulletdeath) == 1:
     print(bulletdeath[0])
