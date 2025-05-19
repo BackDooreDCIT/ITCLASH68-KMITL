@@ -1,8 +1,11 @@
-# WE MADE IT!!
+# The Competition is over!!
 
-## Our team ***「The Procasinators」*** has made it to the **Top 16 Finals** round!
+## Our team ***「The Procasinators」*** has placed 15th on the rankings,
 
-### Please wish us luck!!!
+## It was a very fun and fulfilling experience to be in this competition, and we will definitely enter again next year.
+
+### From the Team Member of ***「The Procasinators」***,
+### Parattakorn Boonprakob
 
 # What is this about?
 
